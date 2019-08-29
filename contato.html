@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            background-color:beige;
+            text-align: center;
+            font-size: 65px;
+        }
+        h5{
+            color:beige;
+            text-align: center;
+            font-size: 30px;  
+        }
+        ul{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        p{
+            color: beige;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        form {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            padding: 5px;
+            width: 420px;
+            border: 3px solid brown;
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <h1>JKSA</h1>
+
+    <ul> 
+        <li><a id="inicio" href="#home"><img style="width: 5%" src="jk.jpg" alt="logo" width="100px" height="50px"></a></li> <br>
+        <li><a href="index.html">Home</a></li><br>
+        <li><a href="https://www.google.com.br/maps">Localização</a></li>
+    </ul>
+    
+    <h5>Frase do Dia</h5>
+
+    <p>Vivemos uma época em que a facilidade predomina em 
+        todos os ramos e segmentos da sociedade. Logicamente, no motociclismo isso não seria diferente.
+        Hoje temos diversas motos modernas, potentes, de altas cilindradas, com tecnologias avançadas 
+        que prometem te levar a qualquer lugar.
+    </p>
+
+    <p style="text-align: center; font-size: 30px">Formulário Para Falar Comigo</p>
+
+    <form method="post" action="#">
+        <label for="nome">Nome:</label> <br>
+        <input required autofocus placeholder="Digite o nome" id="name" name="nome " type="text">
+        <br>
+
+        <label for="email">E-mail:</label><br>
+        <input required placeholder="Digite o seu e-mail" type="email"><br>
+        <label for="date" style="color: beige">Data?</label><br>
+        <input required type="date" name="data"><br>
+        <label style="color: beige">Qual é sua Moto?</label><br>
+        <select name="departamento">
+            <option value="mt">Mt</option>
+            <option value="cbr">CBR</option>
+            <option value="duc">Ducatti</option>
+            <option value="duc">Outras</option>
+        </select>
+        <br>
+        <label>Sugestão:</label><br>
+        <textarea name="obs" cols="40" rows="20" placeholder="Digite aqui a sua Sugestão,frase sobre motos..."></textarea>
+        <br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+        <br>
+    </form><br>    
+
+    <!-- <a href ="https://www2.yamaha-motor.com.br" target="_blank"><img style="width:75%; margin-left: auto; margin-right: auto; display: block" src="moto.jpg" alt="Moto"></a>
+        <a href ="https://www.google.com.br/maps" target="_blank"><img src="img/maps.jpg" alt="Maps"></a> -->
+
+    <footer style="background-color: beige; text-align:center">
+        O melhor Site do Mundo... <article>
+    </footer>
+    
+</body>
+</html>
