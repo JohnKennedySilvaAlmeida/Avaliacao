@@ -1,9 +1,15 @@
 <?php 
 
 
-// Atenção 
+// ********************** Atenção ********************************
 
+// ***** esta funcional ***
 
+// falto alguns detalhes e alterar algum campos e nomes PHP e BD...
+
+// OBS ---- Procura|Editar|Incluir falto add materalize etc...
+
+// login
 // Usuario = john
 // Senha = 123456
 

@@ -1,8 +1,12 @@
 <?php 
 session_start();
 
-// connect to database
-$db = mysqli_connect('localhost', 'root', '123456', 'site'); // OBS!!! criar ainda BD
+
+//ou   - require_once("db_conectar.php");
+
+
+$db = mysqli_connect('localhost', 'root', '123456', 'site'); // OBS!!! teste
+
 
 // declaração de variável
 $username = "";
